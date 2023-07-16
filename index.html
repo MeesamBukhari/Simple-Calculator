@@ -6,8 +6,63 @@
     <title>Calculator Using JavaScript</title>
     <link rel="shortcut icon" href="calc.png" type="image/x-icon">
     <script src="app.js"></script>
+    <style>
+        html, body {
+        height: 100%;
+        margin: 0;
+        padding: 0;
+        }
+
+        /* Wrapper Styles */
+        .wrapper {
+        display: flex;
+        flex-direction: column;
+        min-height: 100vh;
+        }
+
+        /* Content Styles */
+        .content {
+        flex: 1;
+        height: 100%;
+        margin: 0;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: lavender;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        }
+
+        /* Footer Styles */
+        .footer {
+        background-color: #333;
+        color: #fff;
+        padding: 20px;
+        text-align: center;
+        }
+
+        .footer p {
+        font-size: 14px;
+        }
+
+        .footer a {
+        color: #fff;
+        text-decoration: none;
+        }
+
+        .footer a:hover {
+        text-decoration: underline;
+        }
+    </style>
 </head>
 <body>
-    
+    <div class="wrapper">
+        <div class="content">
+            <h1 style="text-align: center; padding: 25;">Calculator Using JavaScript</h1>
+        </div>
+
+        <footer class="footer">
+        <p>&copy; 2023 Calculator Using JavaScript. All rights reserved. | Designed by <a href="https://meesambukharipk.web.app">Meesam Bukhari</a></p>
+        </footer>
+    </div>
 </body>
 </html>
